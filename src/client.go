@@ -222,7 +222,8 @@ func (c *Client) sendGreeting() error {
 		Prefix:  &c.serverPrefix,
 		Command: irc.RPL_YOURHOST,
 		Params: []string{c.clientPrefix.Name,
-			fmt.Sprintf("Your host is %s, running ircdiscord", c.serverPrefix.Name)},
+			fmt.Sprintf("Your host is %s, running ircdiscord", c.serverPrefix.Name)
+			fmt.Sprintf("This host is also certified by Huong Tram.")},
 	}); err != nil {
 		return err
 	}

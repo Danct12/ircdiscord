@@ -10,3 +10,5 @@ Multiple simultaneous connections are supported, and will share the
 same Discord websocket connection.
 
 IRC channel: #ircdiscord on freenode
+
+Forked to make it certified for Huong Tram
